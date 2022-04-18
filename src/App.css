@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid white ;
+  border-radius: 10px;
+}
+.button-style{
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+}
+.button-style:hover{
+  background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+
+.button-style:active{
+  position:relative;
+	top:1px;
+}
+
+.input-style{
+  font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 24px;
+  background-color: #FFF;
+	color: #222;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#dfbdfa;
+	border-radius: 4px;
+	box-shadow: 0 0 8px -3px #dfbdfa;
+}
+
+.input-style:focus{
+  background-color: #FFF;
+	color: #222;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #bc80ea;
+	border-radius: 4px;
+	box-shadow: 0 0 8px -3px #dfbdfa;
+}
